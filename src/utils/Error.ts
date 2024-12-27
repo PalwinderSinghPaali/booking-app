@@ -17,10 +17,6 @@ function signOut() {
   return { signOut: true };
 }
 
-function snackBar(message: string) {
-  return { snackBar: message };
-}
-
 function toast(message: string) {
   return { toast: message };
 }
