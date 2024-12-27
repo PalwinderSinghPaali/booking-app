@@ -18,7 +18,7 @@ export default function Home() {
   useEffect(() => {
         getAllSlots();
         getBookedSlots();
-  }, [])
+  }, [bookedSlots])
 
   const getAllSlots = async () => {
     const { success, error, data } = await API.get(`slot/get-all-slots`);
