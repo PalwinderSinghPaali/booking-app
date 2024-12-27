@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import { useApi } from "@/hooks/useAPI";
 import useTitle from "@/hooks/useTitle";
-import { get } from 'http';
 import { toasterError, toasterSuccess } from '@/components/core/Toaster';
 
 export default function Home() {
